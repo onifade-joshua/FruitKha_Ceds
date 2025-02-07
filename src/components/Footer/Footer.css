@@ -1,0 +1,251 @@
+.footer {
+  width: 100%;
+  max-width: 100%;
+  background-color: #111;
+  padding: 3rem;
+  color: grey;
+  font-family: "Arial", sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: grey;
+  font-size: 0.9em;
+}
+
+.footer-links a:hover {
+  color: orange;
+}
+
+.subscribe-input {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.subscribe-input input {
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.subscribe-input button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: grey;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  font-size: 0.85em;
+}
+.scroll-to-top {
+  width: 10px;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.scroll-to-top:hover {
+  opacity: 1;
+  transform: translateY(-3px);
+}
+.footer-section h3 {
+  color: lightgrey;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  color: grey;
+  line-height: 1.6;
+}
+
+.subscribe-input {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-input input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.send-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap; /* Avoid wrapping icons */
+  gap: 5px; /* Consistent spacing */
+}
+
+.social-media-links a {
+  margin: 0 10px;
+  padding: 0;
+  font-size: 1.5em;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media-links i {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+}
+
+.social-icon {
+  color: black;
+  text-decoration: none;
+}
+
+.social-media-links a:hover {
+  /* background-color: orange; */
+  color: #333;
+  text-decoration: none;
+}
+
+.fab,
+.fas {
+  font-size: 1em;
+}
+.fab, .fas:hover{
+  /* background-color: orange; */
+  color: orange;
+}
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-section h3 {
+    font-size: 1.1em;
+  }
+
+  .footer-section p,
+  .footer-links a {
+    font-size: 0.9em;
+  }
+
+  .subscribe-input {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .subscribe-input input {
+    width: 100%;
+  }
+
+  .subscribe-input button {
+    width: 100%;
+  }
+
+  .social-media-links {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .social-media-links a {
+    font-size: 1.3em;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .scroll-to-top {
+    bottom: 1rem;
+    right: 1rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 1.5rem;
+  }
+
+  .footer-section h3 {
+    font-size: 1em;
+  }
+
+  .footer-section p,
+  .footer-links a {
+    font-size: 0.85em;
+  }
+
+  .subscribe-input button {
+    font-size: 0.85em;
+  }
+
+  .scroll-to-top {
+    bottom: 1rem;
+    right: 3rem;
+    padding: 0.7rem 1.2rem;
+    font-size: 16px;
+  }
+  .social-media-links a {
+    margin: 5px; /* Reduce spacing between icons */
+    padding: 5px; /* Ensure compact icon size */
+    font-size: 1.2em;
+  }
+
+  .social-media-links i {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+  }
+}

@@ -1,0 +1,169 @@
+/* Discount Section */
+.discount {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+}
+
+/* Sales Banner */
+.sales-banner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background: url("../../assets/strawberries_real.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 200px;
+  padding: 40px;
+  border-radius: 10px;
+  color: orange;
+  z-index: inherit;
+  /* position: relative; */
+  /* text-align: center; */
+}
+
+
+.sales-text {
+  max-width: 600px; 
+}
+
+.sales-title {
+  font-size: 3rem; 
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sales-subtitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: red;
+}
+
+.highlight-large {
+  color: red;
+  font-size: 2.5rem;
+}
+
+.shop-now-btn {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 12px 24px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shop-now-btn:hover {
+  background-color: black;
+  color: orange;
+
+}
+
+
+
+/* News Section */
+
+#h2{
+  color: orange;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-top: 1rem;
+}
+.heading{
+  padding-top: 2rem;
+}
+/* .new-text{
+  color: black;
+  margin-left: 1rem;
+} */
+/* .news_text {
+  display: inline-block;
+  color: orange;
+  font-weight: bold;
+} */
+
+#lorem_text {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* News Container */
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.news-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+}
+
+.news_images {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.p_news {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.read_more_news {
+  font-weight: bold;
+  color: orange;
+  cursor: pointer;
+}
+
+/* More News Button */
+#more_news_button {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 24px;
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#more_news_button:hover {
+  background-color: black;
+  color: orange;
+}
+
+/* ✅ Responsive for Mobile */
+@media (max-width: 768px) {
+  .sales-title {
+    font-size: 1.5rem;
+  }
+  .sales-subtitle {
+    font-size: 1.2rem;
+  }
+  .news-container {
+    grid-template-columns: 1fr;
+  }
+}

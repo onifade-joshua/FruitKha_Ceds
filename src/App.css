@@ -1,0 +1,329 @@
+*,
+html {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+body {
+  width: 100%;
+  max-width: 100%;
+}
+.wrapper {
+  /* width: 1400px; */
+  /* max-width: 100%; */
+  /* overflow-x: hidden; */
+  /* max-width: 100%; */
+  /* overflow-x: hidden; */
+  margin: 0;
+  padding: 0;
+  /* padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto; */
+}
+
+.deal {
+  color: orange;
+  font-weight: bold;
+}
+
+.dotm {
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(5, 25, 34);
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 17.5px;
+  display: block;
+  box-sizing: border-box;
+  margin-block-end: 17.5px;
+}
+
+.row1 {
+  box-sizing: border-box;
+  color: rgb(5, 25, 34);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 25.2px;
+}
+
+.hs {
+  color: rgb(5, 25, 34);
+  font-size: 21px;
+  font-family: Poppins, sans-serif;
+  text-align: left;
+  letter-spacing: 0.1px;
+}
+
+.deal-sec {
+  background-color: rgb(245, 245, 245);
+}
+
+.text {
+  box-sizing: border-box;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: rgb(5, 25, 34);
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.1px;
+  line-height: 25.2px;
+  text-align: left;
+  text-size-adjust: 100%;
+  width: 100%;
+}
+
+.col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.timer {
+  box-sizing: border-box;
+  color: rgb(5, 25, 34);
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 25.2px;
+  margin-bottom: 25px;
+  position: relative;
+  text-align: left;
+  text-size-adjust: 100%;
+  flex-wrap: wrap; /* Prevents overflow by wrapping elements */
+  justify-content: center;
+}
+
+.counter {
+  border-bottom-color: rgb(242, 129, 35);
+  border-bottom-style: solid;
+  border-bottom-width: 1.6px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(242, 129, 35);
+  border-left-style: solid;
+  border-left-width: 1.6px;
+  border-right-color: rgb(242, 129, 35);
+  border-right-style: solid;
+  border-right-width: 1.6px;
+  border-top-color: rgb(242, 129, 35);
+  border-top-style: solid;
+  border-top-width: 1.6px;
+  box-sizing: border-box;
+  color: rgb(5, 25, 34);
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 13px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.inside {
+  box-sizing: border-box;
+  color: rgb(5, 25, 34);
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.count {
+  box-sizing: border-box;
+  color: rgb(242, 129, 35);
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 42px;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* .atc{
+  background-color: rgb(242, 129, 35);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .1px;
+  line-height: 25.2px;
+  margin-top: 14px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  text-align: left;
+  text-decoration-color: white;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  transition-behavior: normal;
+  transition-delay: 0s;
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: ease;
+  border: none;
+} */
+
+h2 {
+  line-height: 0.3;
+}
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 0 5px;
+  }
+
+  .col2 {
+    text-align: center;
+  }
+
+  .timer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .atc {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .scrollable-box {
+    max-height: 200px;
+    padding: 0.5rem;
+  }
+}
+/* Base styles (mobile first) */
+:root {
+  --container-padding: 1rem;
+}
+
+/* Small mobile devices (320px and up) */
+@media only screen and (min-width: 320px) {
+  .dotm {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+
+  .text {
+    width: 100%;
+    padding: 0 var(--container-padding);
+  }
+
+  .row1 {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+
+  .col2 {
+    padding: 20px 8px;
+  }
+
+  .counter {
+    padding: 6px 15px;
+  }
+}
+
+/* Medium mobile devices (375px and up) */
+@media only screen and (min-width: 375px) {
+  .dotm {
+    font-size: 32px;
+  }
+
+  .text {
+    width: 90%;
+  }
+}
+
+/* Large mobile devices (425px and up) */
+@media only screen and (min-width: 425px) {
+  .dotm {
+    font-size: 36px;
+  }
+}
+
+/* Tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .dotm {
+    font-size: 40px;
+    margin-bottom: 17.5px;
+  }
+
+  .text {
+    width: 73%;
+  }
+
+  .row1 {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .col2 {
+    padding: 40px 15px;
+  }
+
+  .counter {
+    padding: 8px 20px;
+  }
+}
+
+/* Ensure smooth transitions between breakpoints */
+.dotm,
+.text,
+.row1,
+.col2,
+.counter {
+  transition: all 0.3s ease;
+}
+
+/* Print styles */
+@media print {
+  .atc {
+    display: none;
+  }
+
+  .deal-sec {
+    background: none;
+  }
+}

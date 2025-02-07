@@ -1,0 +1,55 @@
+.atc {
+  width: 90%;
+  max-width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white !important;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  border: none !important;
+  background-color: orange !important;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  outline: none !important;
+}
+.text{
+  margin-left: 0rem;
+}
+
+/* Hover Effect (For desktop users only) */
+@media (hover: hover) {
+  .atc:hover {
+    background-color: black !important;
+    color: orange !important;
+  }
+}
+
+/* Focus Effect */
+.atc:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 2px orange !important;
+}
+
+/* ✅ Mobile Optimizations */
+@media (max-width: 768px) {
+  .atc {
+    width: 50%; 
+    font-size: 0.9rem;
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* ✅ Extra Small Devices (Phones) */
+@media (max-width: 480px) {
+  .atc {
+    width: 50%; 
+    font-size: 0.85rem;
+    padding: 0.7rem;
+  }
+}
