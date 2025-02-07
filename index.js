@@ -373,8 +373,8 @@ const $c8da35d4f9c4f40e$export$617d79dae526d2cf = ()=>/*#__PURE__*/ (0, $ltMAx$r
 
 
 
-var $f04d75d694cf4d51$exports = {};
-$f04d75d694cf4d51$exports = new URL("bag-img.2c804174.jpg", "file:" + __filename).toString();
+var $b5e633ac7efc4e96$exports = {};
+$b5e633ac7efc4e96$exports = new URL("Bag-img.2c804174.jpg", "file:" + __filename).toString();
 
 
 var $82be639800f73247$exports = {};
@@ -463,7 +463,7 @@ function $19ddda38ca0a7473$export$5f0fddd75cd8dcd7() {
                             className: "news-card",
                             children: [
                                 /*#__PURE__*/ (0, $ltMAx$reactjsxruntime.jsx)("img", {
-                                    src: (0, (/*@__PURE__*/$parcel$interopDefault($f04d75d694cf4d51$exports))),
+                                    src: (0, (/*@__PURE__*/$parcel$interopDefault($b5e633ac7efc4e96$exports))),
                                     className: "news_images"
                                 }),
                                 /*#__PURE__*/ (0, $ltMAx$reactjsxruntime.jsx)("h6", {
@@ -587,6 +587,9 @@ function $19ddda38ca0a7473$export$5f0fddd75cd8dcd7() {
 
 
 
+
+var $f04d75d694cf4d51$exports = {};
+$f04d75d694cf4d51$exports = new URL("bag-img.2c804174.jpg", "file:" + __filename).toString();
 
 
 
