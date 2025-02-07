@@ -1,5 +1,5 @@
 import "./DiscountAndNews.css";
-import BagImage from "../../assets/bag-img.jpg";
+import BagImage from "../../assets/Bag-img.jpg";
 import Lemon from "../../assets/lemon.jpg";
 import HatImage from "../../assets/hat-img.jpg";
 
